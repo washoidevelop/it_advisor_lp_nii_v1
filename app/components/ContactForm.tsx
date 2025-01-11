@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
-import { useRouter } from "next/navigation";
 
 interface FormData {
   companyName: string;
@@ -14,7 +13,6 @@ interface FormData {
 }
 
 const ContactForm = () => {
-  const router = useRouter();
   const [formData, setFormData] = useState<FormData>({
     companyName: "",
     contactName: "",
