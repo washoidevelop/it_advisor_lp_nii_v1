@@ -19,6 +19,18 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "つきいちDX",
   description: "つきいち改善で、見掛け倒しの儲からないDXを脱却",
+  openGraph: {
+    title: "つきいちDX",
+    description: "つきいち改善で、見掛け倒しの儲からないDXを脱却",
+    images: [
+      {
+        url: "/images/OGImage.png",
+        width: 1200,
+        height: 630,
+        alt: "つきいちDX",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
